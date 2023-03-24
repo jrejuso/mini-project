@@ -1,0 +1,103 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Noto+Serif:wght@700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header{
+  background-image: url(/images/noon_windy.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+
+}
+.navbar-brand img {
+  float: left;
+  width: 180px;
+  height: auto;
+}
+
+.navbar ul li{
+  display: inline-block;
+}
+
+.navbar ul li a{
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 20px;
+  margin-right: 20px;
+  border: 1px solid transparent;
+  transition: 0.5s ease;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+.navbar ul li a:hover{
+  background-color: #fff;
+  color: #000
+}
+
+.navbar ul li.active a{
+  background-color: #fff;
+  color: #000;
+}
+
+.tittle {
+  position: auto;
+  padding-top: 10%;
+  padding-left: auto;
+  /* top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%); */
+}
+
+.tittle h1 {
+  text-align: center;
+  color: #fff;
+  font-size: 70px;
+  font-family: 'Noto Serif', serif;
+  text-shadow: rgb(42, 79, 2) 5px 8px;
+}
+
+.button {
+  position: auto;
+  padding-top: 10%;
+  padding-left: 40%;
+  background: transparent;
+  /* top: 65%;
+  left: 50%;
+  transform: translate(-50%,-50%); */
+}
+.button a{
+  color: #fff;
+  font-size: 20px;
+  border-radius: 10px;
+  border-style: none;
+  padding: 15px;
+  background-color: rgb(12, 114, 215);
+}
+.button a:hover {
+  color: #000;
+  font-size: 20px;
+  border-radius: 10px;
+  border-style: none;
+  padding: 15px;
+  background-color: rgb(185, 194, 203);
+
+}
+
+.btn {
+  border: 1px solid #fff;
+  padding: 10px 30px;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.5 ease;
+}
+
+.button btn:hover{
+  background-color: #fff;
+  color:#fff;
+}
